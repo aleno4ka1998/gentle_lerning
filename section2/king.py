@@ -2,7 +2,7 @@ x = int(input())
 y = int(input())
 x1 = int(input())
 y1 = int(input())
-if (x1 - y1) == (x - y) or (x1 + y1) == (x + y) or x == x1 or y == y1:
+if abs(x1 - x) <= 1 and abs(y1 - y) <= 1:
     print('YES')
 else:
     print('NO')
