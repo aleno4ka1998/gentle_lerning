@@ -1,11 +1,8 @@
-# какое из трёх чисел больше?
-a = int(input())
-b = int(input())
-c = int(input())
-if a >= b and a >= c:
-    print(a)
+x = int(input())
+y = int(input())
+x1 = int(input())
+y1 = int(input())
+if (x1 - y1) == (x - y) or (x1 + y1) == (x + y):
+    print('YES')
 else:
-    if b >= a and b >= c:
-        print(b)
-    else:
-        print(c)
+    print('NO')
