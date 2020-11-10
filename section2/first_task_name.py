@@ -1,11 +1,8 @@
-# какое из трёх чисел больше?
+# максимальное число из двух данных
 a = int(input())
 b = int(input())
-c = int(input())
-if a >= b and a >= c:
+if a > b:
     print(a)
 else:
-    if b >= a and b >= c:
-        print(b)
-    else:
-        print(c)
+    print(b)
+    
