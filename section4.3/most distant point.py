@@ -4,7 +4,7 @@ class Coordinate:
         self.y = y
 
     def absolute(self):
-        return(abs(self.x + self.y))
+        return(abs(self.x) + abs(self.y))
 
 
 n = int(input())
