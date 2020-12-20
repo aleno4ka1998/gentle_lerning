@@ -10,8 +10,6 @@ class SetOfCoordinates:
     def distance(self, i, j):
         return math.sqrt((self.X[j] - self.X[i]) ** 2 + (self.Y[j] - self.Y[i]) ** 2)
 
-
-
 n = int(input())
 maximum = 0
 for _ in range(n):
@@ -22,4 +20,4 @@ for i in range(0, n - 1):
         dis = mass_coord.distance(i, j)
         if dis > maximum:
             maximum = dis
-print(dis)
+print(maximum)
