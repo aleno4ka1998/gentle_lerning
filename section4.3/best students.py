@@ -1,17 +1,17 @@
 class Pupil:
 
     def __init__(self, surname, name, math, physics, it):
-        self.a = surname
-        self.b = name
-        self.c = math
-        self.d = physics
-        self.e = it
+        self.surname = surname
+        self.name = name
+        self.math = math
+        self.physics = physics
+        self.it = it
 
     def averageMark(self):
-        return float(int((self.c + self.d + self.e)) / 3)
+        return float(int((self.math + self.physics + self.it)) / 3)
 
     def __str__(self):
-        return str(self.a) + ' ' + str(self.b)
+        return str(self.surname) + ' ' + str(self.name)
 
 n = int(input())
 A = []
